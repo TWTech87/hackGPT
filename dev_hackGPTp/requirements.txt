@@ -2,7 +2,7 @@ langchain==0.0.197
 gpt4all==0.3.4
 chromadb
 llama-cpp-python==0.1.50
-urllib3==1.26.7
+urllib3==1.26.19
 PyMuPDF==1.22.3
 python-dotenv==1.0.0
 unstructured==0.6.6
@@ -10,8 +10,13 @@ extract-msg==0.41.1
 tabulate==0.9.0
 pandoc==2.3
 pypandoc==1.11
-tqdm==4.65.0
-pydantic==1.10.10
+tqdm==4.66.3
+pydantic==1.10.13
 PyPDF2
 pytesseract
 pdf2image
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
